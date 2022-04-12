@@ -1,5 +1,5 @@
 function distinct(a) {
-    return [];
+    return Array.from(new Set(a));
 }
 
 console.log(distinct([1])); // [1]
